@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!"+add(5, 10));
     }
 
-    public static T add<T>(T a, T b) {
+    public static double add(int a, int b) {
         return a + b;
     }
 }
